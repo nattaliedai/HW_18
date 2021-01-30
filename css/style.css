@@ -31,16 +31,17 @@
     display: none;
 }
 .greetingandintroduction {
-    padding-top: 50px;
-    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-bottom: 40px;
 }
 .greeting p {
-    padding-left: 60px; 
     font-size: 36px;  
     font-family: 'Work Sans', sans-serif;
 }
 .introduction p {
-    padding-left: 60px;
     font-size: 24px;
     font-family: 'Work Sans', sans-serif;
     }
