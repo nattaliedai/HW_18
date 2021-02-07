@@ -1,7 +1,6 @@
 .navigation {
-    background-color: #e2e2e2;
     display: flex; 
-    justify-content: space-between; 
+    justify-content: space-between;
     height: 100px;
 }
 .navigation img {
@@ -32,10 +31,10 @@
     display: none;
 }
 .greetingandintroduction {
-    background-color: #e2e2e2;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    padding-top: 80px;
     padding-left: 40px;
     padding-bottom: 80px;
 }
@@ -46,13 +45,13 @@
 .introduction p {
     font-size: 24px;
     font-family: 'Work Sans', sans-serif;
-    }
-    .projects p {
-        text-align: center;
-        font-size: 36px;
-        font-family: 'Work Sans', sans-serif;
-        padding-bottom: 40px;
-    }
+}
+.projects p {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 40px;
+}
     .helloproject {
         margin: 0 auto;
         width: 60%;
